@@ -1,18 +1,18 @@
- <h1 align="center"><img src="./userbot/resources/Kenpurple.gif" width="35px"> 𝘼𝙮𝙞𝙞𝙣 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 <img src="./userbot/resources/Kenpurple.gif" width="35px"></h1>
+ <h1 align="center"><img src="./userbot/resources/Kenpurple.gif" width="35px"> 𝐇𝐄𝐀𝐕𝐄𝐍 𝐎𝐍 𝐄𝐀𝐑𝐓𝐇 <img src="./userbot/resources/Kenpurple.gif" width="35px"></h1>
 
-<a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AyiinXd/Ayiin-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/Ayiin-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/stargazers)
+<a href="https://github.com/yud022/HOE-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/yud022/HOE-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/yud022/HOE-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/yud022/HOE-Userbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/HOE-Userbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/yud022/HOE-Userbot?&logo=github)](https://github.com/yud022/HOE-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/yud022/HOE-Userbot?&logo=github)](https://github.com/yud022/HOE-Userbot/stargazers)
 
 
 <p align="center">
   <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
 </p>
 
-<img src="./userbot/resources/Kenpurple.gif" width="20px">Ayiin-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+<img src="./userbot/resources/Kenpurple.gif" width="20px">HOE-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -56,13 +56,13 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/AyiinXd/Ayiin-Userbot`
+-  `git clone https://github.com/yud022/HOE-Userbot`
 -  `cd Ayiin-Userbot`
 -  `pip3 install -r requirements.txt`
 -  `mv sample_config.env config.env`
--  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori Ayiin-Userbot
--  Buka SCRREN di VPS Anda `screen -S Ayiin-Userbot`
--  Kemudian gunakan perintah ini untuk menyebarkan Ayiin-Userbot `python3 -m userbot`
+-  edit config.env Anda dan isi VARS menggunakan `nano config.env` `CTRL + S ` untuk menyimpan VARS Anda, gunakan `CTRL + X` untuk keluar dan kembali ke direktori HOE-Userbot
+-  Buka SCRREN di VPS Anda `screen -S HOE-Userbot`
+-  Kemudian gunakan perintah ini untuk menyebarkan HOE-Userbot `python3 -m userbot`
 
 </details>
 
@@ -70,7 +70,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/AyiinXd/Deploy-Ayiin"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/yud022/Deploy-HOE"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -84,9 +84,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinXdSupport](https://t.me/AyiinXdSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ayiin-Userbot.
+Follow Channel [@HoeSupport](https://t.me/HoeSupport) untuk info Update bot dan Gabung Group [@HoeeSupport](https://t.me/HoeeSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang HOE-Userbot.
 
-#### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
+#### © Credits
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
 -  [RaphielGang](https://github.com/RaphielGang) : Paperplane
 -  [TeamUltroid](https://github.com/TeamUltroid/Ultroid) :  UltroidUserbot
@@ -97,14 +97,9 @@ Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot 
 -  [Koala](https://github.com/ManusiaRakitan/Kampang-Bot) : Kampang-Bot
 -  [Alvin](https://github.com/Zora24/Lord-Userbot) : Lord-Userbot
 -  [AyiinXd](https://github.com/AyiinXd/Ayiin-Userbot) : Ayiin-Userbot
-
-## © Credits
--  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
--  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
--  [Risman](https://github.com/mrismanaziz) for [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)
--  [AyiinXd](https://github.com/AyiinXd) for [Ayiin-Userbot](https://github.com/AyiinXd/Ayiin-Userbot)
+-  [yud](https://github.com/yud022/HOE-Userbot) : HOE-Userbot
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/AyiinXd/Ayiin-Userbot/blob/Ayiin-Userbot/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/yud022/HOE-Userbot/blob/HOE-Userbot/LICENSE) - Version 1.d, February 2021
 
 
