@@ -14,10 +14,10 @@ from userbot import (
     DEFAULT,
     DEVS,
     LOGS,
-    AYIIN2,
-    AYIIN3,
-    AYIIN4,
-    AYIIN5,
+    HOE2,
+    HOE3,
+    HOE4,
+    HOE5,
     STRING_2,
     STRING_3,
     STRING_4,
@@ -29,8 +29,8 @@ from userbot import (
 )
 from userbot.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nAyiin-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
-MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOT {} GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nAyiin-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/mrismanaziz>"
+EOL = "EOL\nHOE-UserBot v{}, Copyright © 2021-2022 YUD• <https://github.com/yud022>"
+MSG_BLACKLIST = "MAKANYA GA USAH BERTINGKAH KONTOL, USERBOT {} GUA BASMI NAJIS BANGET DIPAKE JAMET KEK LU.\nHOE-UserBot v{}, Copyright © 2021-2022 ʀɪsᴍᴀɴ• <https://github.com/yud022>"
 
 
 async def ayiin_client(client):
@@ -53,7 +53,7 @@ def multiayiin():
         try:
             bot.start()
             call_py.start()
-            bot.loop.run_until_complete(ayiin_client(bot))
+            bot.loop.run_until_complete(hoe_client(bot))
             user = bot.get_me()
             name = user.first_name
             uid = user.id
@@ -68,9 +68,9 @@ def multiayiin():
 
     if STRING_2:
         try:
-            AYIIN2.start()
-            AYIIN2.loop.run_until_complete(ayiin_client(AYIIN2))
-            user = AYIIN2.get_me()
+            HOE2.start()
+            HOE2.loop.run_until_complete(hoe_client(HOE2))
+            user = HOE2.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(
@@ -83,9 +83,9 @@ def multiayiin():
 
     if STRING_3:
         try:
-            AYIIN3.start()
-            AYIIN3.loop.run_until_complete(ayiin_client(AYIIN3))
-            user = AYIIN3.get_me()
+            HOE3.start()
+            HOE3.loop.run_until_complete(hoe_client(HOE3))
+            user = HOE3.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(
@@ -98,9 +98,9 @@ def multiayiin():
 
     if STRING_4:
         try:
-            AYIIN4.start()
-            AYIIN4.loop.run_until_complete(ayiin_client(AYIIN4))
-            user = AYIIN4.get_me()
+            HOE4.start()
+            HOE4.loop.run_until_complete(hoe_client(HOE4))
+            user = HOE4.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(
@@ -114,8 +114,8 @@ def multiayiin():
     if STRING_5:
         try:
             AYIIN5.start()
-            AYIIN5.loop.run_until_complete(ayiin_client(AYIIN5))
-            user = AYIIN5.get_me()
+            AYIIN5.loop.run_until_complete(hoe_client(HOE5))
+            user = HOE5.get_me()
             name = user.first_name
             uid = user.id
             LOGS.info(
