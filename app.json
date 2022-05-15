@@ -1,9 +1,9 @@
 {
-  "name": "⋆ 𝘼𝙮𝙞𝙞𝙣-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
-  "description": "[Ayiin-Userbot] Userbot Hanya Untuk Bersenang - Senang",
+  "name": "⋆ HOE-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
+  "description": "[HOE-Userbot] Userbot Hanya Untuk Bersenang - Senang",
   "logo": "https://telegra.ph/file/c6a0aef41355af5a018c6.jpg",
-  "keywords": ["telegram", "userbot", "Ayiin-Userbot", "modular", "python"],
-  "repository": "https://github.com/AyiinXd/Ayiin-Userbot",
+  "keywords": ["telegram", "userbot", "HOE-Userbot", "modular", "python"],
+  "repository": "https://github.com/yud022/HOE-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -19,7 +19,7 @@
       "value": "$"
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/AyiinXdSupport » Lalu ketik #string",
+      "description": "Dapatkan String Session di Grup » https://t.me/HoeeSupport » Lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
