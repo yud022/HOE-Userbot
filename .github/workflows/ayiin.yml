@@ -1,4 +1,4 @@
-name: Ayiin-Userbot
+name: HOE-Userbot
 
 on: [push, pull_request]
 
@@ -26,9 +26,9 @@ jobs:
       # commit changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Ayiin-Userbot: auto fixes'
+          commit_message: 'HOE-Userbot: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: AyiinXd
-          commit_user_email: ayingaming98@gmail.com
-          commit_author: AyiinXd <ayingaming98@gmail.com>
+          commit_user_name: yud022
+          commit_user_email: botkhusus0@gmail.com
+          commit_author: Yud022 <botkhusus0@gmail.com>
