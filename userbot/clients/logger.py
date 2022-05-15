@@ -11,10 +11,10 @@ from userbot import BOT_USERNAME
 from userbot import BOT_VER as version
 from userbot import BOTLOG_CHATID
 from userbot import CMD_HANDLER as cmd
-from userbot import AYIIN2, AYIIN3, AYIIN4, AYIIN5, bot, branch
+from userbot import HOE2, HOE3, HOE4, HOE5, bot, branch
 
 MSG_ON = """
-✨ **Ayiin-Userbot Berhasil Di Aktifkan**
+✨ **HOE-Userbot Berhasil Di Aktifkan**
 ━━
 ➠ **Userbot Version -** `{}@{}`
 ➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
@@ -22,7 +22,7 @@ MSG_ON = """
 """
 
 
-async def ayiin_userbot_on():
+async def HOE_userbot_on():
     try:
         if bot:
             if BOTLOG_CHATID != 0:
@@ -33,36 +33,36 @@ async def ayiin_userbot_on():
     except BaseException:
         pass
     try:
-        if AYIIN2:
+        if HOE2:
             if BOTLOG_CHATID != 0:
-                await AYIIN2.send_message(
+                await HOE2.send_message(
                     BOTLOG_CHATID,
                     MSG_ON.format(version, branch, cmd),
                 )
     except BaseException:
         pass
     try:
-        if AYIIN3:
+        if HOE3:
             if BOTLOG_CHATID != 0:
-                await AYIIN3.send_message(
+                await HOE3.send_message(
                     BOTLOG_CHATID,
                     MSG_ON.format(version, branch, cmd),
                 )
     except BaseException:
         pass
     try:
-        if AYIIN4:
+        if HOE4:
             if BOTLOG_CHATID != 0:
-                await AYIIN4.send_message(
+                await HOE4.send_message(
                     BOTLOG_CHATID,
                     MSG_ON.format(version, branch, cmd),
                 )
     except BaseException:
         pass
     try:
-        if AYIIN5:
+        if HOE5:
             if BOTLOG_CHATID != 0:
-                await AYIIN5.send_message(
+                await HOE5.send_message(
                     BOTLOG_CHATID,
                     MSG_ON.format(version, branch, cmd),
                 )
