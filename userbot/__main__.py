@@ -36,7 +36,7 @@ try:
     LOGS.info(f"Telethon Version - {version.__version__}")
     LOGS.info(f"PyTgCalls Version - {pytgcalls.__version__}")
     LOGS.info(
-        f"Ayiin-Userbot Version - {ubotversion} [✨ BERHASIL DIAKTIFKAN! ✨]")
+        f"HOE-Userbot Version - {ubotversion} [✨ BERHASIL DIAKTIFKAN! ✨]")
 except (ConnectionError, KeyboardInterrupt, NotImplementedError, SystemExit):
     pass
 except BaseException as e:
